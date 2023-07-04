@@ -54,6 +54,24 @@
             {
                 Console.WriteLine($"ID: {student.Id}, Name: {student.Name}, Total Marks: {student.TotalMarks}");
             }
+
+            Console.WriteLine("________________________________________________________________");
+            Console.WriteLine("Display all the student records in each address.");
+            // Group students by address
+            var groupedStudents = studentList.GroupBy(student => student.Address);
+
+            // Display student records for each address
+            foreach (var group in groupedStudents)
+            {
+                Console.WriteLine($"Address: {group.Key}");
+
+                foreach (var student in group)
+                {
+                    Console.WriteLine($"ID: {student.Id}, Name: {student.Name}");
+                }
+
+                Console.WriteLine();
+            }
         }
     }
 }
