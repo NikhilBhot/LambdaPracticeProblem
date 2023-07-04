@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lambda_StudentDataManagement", "Lambda_StudentDataManagement.csproj", "{9AF95D8C-6AA6-4CB7-A25A-E2E39D89AE26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9AF95D8C-6AA6-4CB7-A25A-E2E39D89AE26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AF95D8C-6AA6-4CB7-A25A-E2E39D89AE26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AF95D8C-6AA6-4CB7-A25A-E2E39D89AE26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AF95D8C-6AA6-4CB7-A25A-E2E39D89AE26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {690027BA-F44C-4DD2-AEA2-021429BA3A2B}
+	EndGlobalSection
+EndGlobal
