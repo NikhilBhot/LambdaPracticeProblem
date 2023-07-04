@@ -82,6 +82,20 @@
             {
                 Console.WriteLine($"ID: {student.Id}, Name: {student.Name}, Address: {student.Address}");
             }
+            Console.WriteLine("__________________________________________________________________");
+            // Search for a particular student based on name
+            string searchName = "Bob Johnson";
+            var searchedStudent = studentList.FirstOrDefault(student => student.Name == searchName);
+
+            // Display the details of the searched student
+            if (searchedStudent != null)
+            {
+                Console.WriteLine($"ID: {searchedStudent.Id}, Name: {searchedStudent.Name}, Address: {searchedStudent.Address}");
+            }
+            else
+            {
+                Console.WriteLine("Student not found.");
+            }
         }
     }
 }
