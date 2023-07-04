@@ -72,6 +72,16 @@
 
                 Console.WriteLine();
             }
+            Console.WriteLine("_______________________________________________________________");
+            Console.WriteLine("Fetch first three students records.");
+            // Fetch the first three student records
+            var firstThreeStudents = studentList.Take(3);
+
+            // Display the details of the first three students
+            foreach (var student in firstThreeStudents)
+            {
+                Console.WriteLine($"ID: {student.Id}, Name: {student.Name}, Address: {student.Address}");
+            }
         }
     }
 }
